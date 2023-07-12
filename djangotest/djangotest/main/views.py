@@ -5,7 +5,7 @@ def index(request):
     data = {
         'title': 'Главная страница',
     }
-    return render(request, 'main/index.html', data)
+    return render(request, 'main/home2.html', data)
 
 
 def about(request):
