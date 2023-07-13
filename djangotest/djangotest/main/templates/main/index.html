@@ -1,0 +1,53 @@
+{% extends 'main/base.html'%}
+
+{%block title%}MT{%endblock%}
+{% block content %}
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="C:\Users\arsec\Desktop\MYTEST\home\css\home2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'main/css/home2.css' %}">
+	<title>MY TEST</title>
+	
+</head>
+<header class="header">
+	<div class="container">
+		<style >
+			a:hover {
+		    color: #9F0DBD;  
+		    text-decoration: underline;
+		    transition: opacity .2s linear;
+		   }
+		</style>
+		<div class="header_logo">MY TEST</div>
+		<div class="header_logo_img"><img src="static/main/img/img/icon.png"></div>
+		<div class="header_logo_mt">MT</div>
+
+		<nav class="header_nav">
+			<a href="C:/Users/arsec/Desktop/MYTEST/home2.html" class="header_home">Главная</a>
+			<a href="#" class="header_mytest">Мои тесты</a>
+			<a href="#" class="header_bell"><img src="static/main/img/img/bell.png"></a>
+			<a href="C:/Users/arsec/Desktop/MYTEST/Registration/entrance.html" class="header_human"><img src="static/main/img/img/human.png"></a>
+		</nav>
+	</div>
+</header>
+<body>
+	<div class="backgroundtext">
+		<div class="text1">Упростите оценку знаний<br> студентов с помощью нашей<br> платформы тестирования.</div>
+		<div class="text2">Создавайте тесты для студентов<br> и принимайте результаты онлайн с<br> нашей удобной платформой.</div>
+		<button class="highlight_icon">Создать тест</button>
+	</div>
+
+	<div class="backgraundfon">
+		<div class="backfon"><img src="static/main/img/img/Ellipse 2.png"></div>
+		<div class="backfon2"><img src="static/main/img/img/home_icon.png"></div>
+	</div>
+</body>
+{%endblock%}
+</html>
